@@ -1,0 +1,38 @@
+.projects {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+/* .featureSvg {
+  height: 200px;
+  width: 200px;
+} */
+
+.fixedHeight {
+  width: 408px;
+  height: 200px; /* Set your desired fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.fixedHeight {
+  height: 200px; /* Set your desired fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.projectCol {
+  @media (max-width: 996px) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  @media (max-width: 425px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.dateLeft {
+  text-align: left;
+}

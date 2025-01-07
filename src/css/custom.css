@@ -18,13 +18,54 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme="dark"] {
+  --ifm-color-primary: #fff48d;
+  --ifm-color-primary-dark: #e6db7f;
+  --ifm-color-primary-darker: #ccc271;
+  --ifm-color-primary-darkest: #b3a963;
+  --ifm-color-primary-light: #fff7a3;
+  --ifm-color-primary-lighter: #fff9b8;
+  --ifm-color-primary-lightest: #fffccc;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 244, 141, 0.3);
+  --ifm-background-color: #242526;
+}
+
+body {
+  background-color: #1b1b1d;
+}
+
+.navbar__inner {
+  max-width: 1320px;
+  margin: 0 auto; /* Center the navbar */
+}
+
+.navbar__toggle {
+  display: none;
+}
+
+.navbar__item {
+  display: inline-block;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+}
+
+.hero--primary {
+  background-color: #1b1b1d;
+}
+
+.projects__EQs .col--4 {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #242526;
+  margin-top: 72px;
+  padding: 8px;
+}
+
+.hero__title {
+  color: #fff;
 }
