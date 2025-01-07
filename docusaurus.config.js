@@ -24,7 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "eugelito", // Usually your GitHub org/user name.
   projectName: "uxuiportfolio", // Usually your repo name.
-
+  deploymentBranch: "gh-pages", // The name of the branch that GitHub uses for deployment.
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
