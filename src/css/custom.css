@@ -39,10 +39,6 @@ body {
   margin: 0 auto; /* Center the navbar */
 }
 
-.navbar__toggle {
-  display: none;
-}
-
 .navbar__item {
   display: inline-block;
 }
@@ -68,4 +64,13 @@ body {
 
 .hero__title {
   color: #fff;
+}
+
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: none;
+  }
+  .navbar__item {
+    display: inline-block;
+  }
 }

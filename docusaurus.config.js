@@ -15,10 +15,10 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://eugelito.github.io",
+  url: "https://eugelito.github.io", // Your GitHub Pages URL without sub-path
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/uxuiportfolio/",
+  baseUrl: "/uxuiportfolio/", // Your repository name with leading and trailing slashes
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -62,7 +62,7 @@ const config = {
         items: [
           {
             label: "Home",
-            to: "/",
+            to: "/uxuiportfolio/", // Ensure this path matches your baseUrl
             position: "right",
           },
         ],

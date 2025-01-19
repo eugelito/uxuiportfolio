@@ -1,5 +1,5 @@
 ---
-id: web-technologies-and-programming-eltmree
+id: web-technologies-and-programming-elmtree
 title: Web Technologies and Programming – Elmtree
 month: 05
 year: 2016
@@ -15,7 +15,7 @@ May 2016
 
 The purpose of the module assignment was to assess my development skills in ASP.NET, C# and MS SQL 2014 technologies. In addition, the web app used Bootstrap Technologies.
 
-The web app developed was a pre-loved selling web app called Elmtree, similar to Gumtree. it was a localised platform for university students to buy and sell various items.
+The web app developed was a pre-loved selling web app called Elmtree, similar to Gumtree. It was a localized platform for university students to buy and sell various items.
 
 (Desktop UI)
 
@@ -27,4 +27,4 @@ The web app developed was a pre-loved selling web app called Elmtree, similar to
 
 ## Process and Outcome
 
-The redesign improved user retention by 25% and decreased user churn by 15%.
+Developed an ASP.NET C# web application integrated with an MS SQL database. The application enabled users to register as sellers, securely log in, and manage item listings through a user-friendly interface styled with Bootstrap. Implemented full CRUD functionality (create, read, update, delete) for item listings.
